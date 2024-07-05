@@ -13,6 +13,9 @@ const index = () => {
   const [limit,setLimit]=useState(20);
   const [total,setTotal]=useState(0);
 
+
+  
+
   useEffect(()=>{
     getPokemones(offset);
     getAllPokemones();
